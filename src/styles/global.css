@@ -127,7 +127,7 @@ h6 {
   --transition-squish-fast: var(--_tspeed_fast) var(--_ttiming_squish);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --bkg: var(--bkg--dark);
     --txt: var(--txt--dark);
@@ -138,7 +138,7 @@ h6 {
     --_shadow-saturation: 75%;
     --_shadow-lightness: 6%;
   }
-}
+} */
 
 /* prefers reduced motion */
 @media (prefers-reduced-motion: reduce) {
@@ -259,7 +259,7 @@ button {
 }
 
 .link {
-  --type: transparent;
+  --type: hsl(235 40% 5%);
   --fill: transparent;
   display: flex;
   place-items: center;
