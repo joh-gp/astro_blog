@@ -627,3 +627,14 @@ header {
 .sidebar [aria-label="Blog categories"]{
   margin-block: 0;
 }
+
+.link-button {
+  background-color: hsl(235 55% 50%);
+  color: hsl(235 25% 97%);
+
+  &:hover {
+    background-color: hsl(235 40% 5%);
+    color: hsl(235 25% 97%);
+    transition: ease-in-out 200ms;
+  }
+}
